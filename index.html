@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta charset="utf-8">
+     <title>My Personal Website</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+
+</head>
+<body>
+     <div class="header">
+         <nav>
+             <a href="index.html"> <img src="Images/symbol.png"></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="#home">HOME</a></li>
+                     <li><a href="#bio">ABOUT</a></li>
+                     <li><a href="#edu">EDUCATION</a></li>
+                     <li><a href="#fam">FAMILY</a></li>
+                     <li><a href="#work">GALLERY</a></li>
+                     <li><a href="#contact">CONTACT</a></li>
+                 </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+             </nav>
+        <div class="text-box">
+          <body onload="initClock()">
+
+            <!--digital clock start-->
+            <div class="datetime">
+              <div class="date">
+                <span id="dayname">Day</span>,
+                <span id="month">Month</span>
+                <span id="daynum">00</span>,
+                <span id="year">Year</span>
+              </div>
+              <div class="time">
+                <span id="hour">00</span>:
+                <span id="minutes">00</span>:
+                <span id="seconds">00</span>
+                <span id="period">AM</span>
+              </div>
+            </div>
+            <!--digital clock end-->
+          
+            <h1>My Personal Website</h1>
+            <p> "People don't change with time, People change by choice" <br> Love Yourself first to get anything done in this world. Make yourself a priority</p>
+             <a href="#bio" class="hero-btn">Visit Me To Know More</a>
+        </div>
+     </div>
+     <!---- biodata ---->
+     <div class="bio" id="bio">
+         <h1> MY <span>BIODATA</span></h1>
+         <P>Here was a few detail about me</P>
+         <div class="row">
+             <div class="bio-col"><img src="images/me.png" alt="">
+                  <div class="layer">
+                      </div> </div>
+             <h3></h3>
+             <table class="table">
+               <thead>
+                 <th>Class</th>
+                 <th>Data</th>
+               </thead>
+               <tbody>
+                 <tr>
+                   <td data-label="Class">Name</td>
+                   <td data-label="Data">Nur Ain Najwa Bt Mohd Rizal</td>
+                 </tr>
+                 <tr>
+                  <td data-label="Class">Age</td>
+                  <td data-label="Data">21 years old</td>
+                 </tr>
+                 <tr>
+                  <td data-label="Class">Born date</td>
+                  <td data-label="Data">3 August 2000</td>
+                 </tr>
+                 <tr>
+                  <td data-label="Class">Born Place(state)</td>
+                  <td data-label="Data">Kuala Lumpur</td>
+                 </tr>
+                 <tr>
+                  <td data-label="Class">Siblings</td>
+                  <td data-label="Data">First child of four sibling</td>
+                 </tr>
+                 <tr>
+                  <td data-label="Class">Hobbies</td>
+                  <td data-label="Data">Makeup Lover and Novel Lover</td>
+                 </tr>
+                 <tr>
+                  <td data-label="Class">Status</td>
+                  <td data-label="Data">Student</td>
+                 </tr>
+                 <tr>
+                  <td data-label="Class">Education</td>
+                  <td data-label="Data">Diploma of Information Management</td>
+                 </tr>
+                 <tr>
+                  <td data-label="Class">Place of study</td>
+                  <td data-label="Data">UiTM Rembau, Negeri Sembilan</td>
+                 </tr>
+                 
+                  <td data-label="Class">Current Address</td>
+                  <td data-label="Data">Seri Kembangan,Selangor</td>
+               </tbody>
+             </table>
+        </div>
+     </div>
+     <!------ Audio Song ------>
+     <div class="song">
+      <div class="main">
+        <p id="logo"><i class="fa fa-music"></i>Music
+        Notes:<br> <span> It is not the whole <br> version because i have cut it <br> during convert  audio to mp3,<br> so it only reach for the <br> ending
+          "bila nanti"</p></span></div>
+      <div class="picc"> <img src="/blob/main/images/for.jpeg" alt="">
+        </div>
+             <audio controls>
+              <source src="horse.ogg" type="audio/ogg">
+              <source src="Audio/music.mp3" type="audio/mp3">
+             Your Browser did not support the audio element.
+          
+           </audio>
+          </div>
+     <!---- education ----->
+     <div class="edu" id="edu">
+         <h1>MY EDUCATION <span>BACKGROUND</span></h1>
+         <p> Currently, I am at my Diploma Level. I am being educated to specialise in information literacy, information handling, information communication. My course is information management. </p>
+
+         <div class="row">
+             <div class="edu-col">
+                 <h3> ELEMENTARY SCHOOL</h3>
+                 <a href="http://sktu.edu.my/v7/"><img src="/blob/main/images/SKTU.png" alt=""></a>
+                 <p> I am being educated Sekolah Kebangsaan Taman Universiti from 6 years old. The Starting year is at 2007. 
+                   The school distance with my home is only 5 KM. So that is why my parent send me to school there.
+                   My result for UPSR is 2A 2B 1C.
+                 </p></div>
+             <div class="edu-col">
+                <h3> HIGH SCHOOL</h3>
+                <a href="https://www.facebook.com/SMK-Taman-Desaminium-Official-390253287679487/"><img src="/blob/main/images/SMKTD.png" alt=""></a>
+                <p> I am being educated at Sekolah Menengah Kebangsaan Taman Desaminium from 13 years old. The starting year is at 2012.
+                   The reason my parent send me here is also the same reason as I mentioned before. My SPM result is 4A, 2B, 1C, 1D. 
+                </p></div>
+            <div class="edu-col">
+                <h3> DIPLOMA</h3>
+                <a href="https://www.uitm.edu.my/index.php/en/"><img src="/blob/main/images/UITM.png" alt=""></a>
+                <p> I am being educated at <abbr title="Universiti Teknologi Mara">UiTM</abbr> Rembau and I'm taking Information Management course.
+                  In this course, I have specialise with information literacy, information handling, 
+                  information communication and many more. It entails analysing, creating, developing, 
+                  and managing various forms of information systems for identifying, acquiring, organising, 
+                  storing, retrieving, and disseminating 
+                  information.</p></div>
+         </div>
+         </div>
+
+     <!----- family ------>
+     <div class="container" id="fam">
+       <h1>MY LOVELY <span>FAMILY</span></h1>
+       <h2>This is my family member</h2>
+      <div class="card-content" style="display: none">
+        <div class="kad">
+          <div class="card-image"><img src="Images/yaa.png" alt=""></div>
+          <div class="card-info">
+            <h3>My Father</h3>
+            <p> 
+              <ul>
+                <li> Name: Mohamad Rizal Bin Mat Nazari</li>
+                <li> Age: 49 years old </li>
+                <li> Born Date: 2 January </li>
+                <li> Hobby: Fishing</li>
+                <li> Siblings: third of nine siblings </li>
+                <li> Born Place(state): Perak </li>
+
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div class="kad">
+          <div class="card-image"><img src="Images/mamaa.png" alt=""></div>
+          <div class="card-info">
+            <h3>My Mother</h3>
+            <p>
+              <ul>
+                <li> Name: Rodiah Bt Ahmad Hilal</li>
+                <li> Age: 47 years old </li>
+                <li> Born Date: 11 September </li>
+                <li> Hobby: Cooking</li>
+                <li> Siblings: First of ten siblings </li>
+                <li> Born Place(state): Selangor </li>
+
+              </ul>
+
+            </p>
+          </div>
+        </div>
+        <div class="kad">
+          <div class="card-image"><img src="Images/ain.png" alt=""></div>
+          <div class="card-info">
+            <h3>First Daughter</h3>
+            <p>
+              <ul>
+                <li> Name: Nur Ain Najwa Bt Mohd Rizal </li>
+                <li> Age: 21 years old </li>
+                <li> Born Date: 3 August </li>
+                <li> Hobby: Reading Novel</li>
+                <li> Siblings: First of four sibling </li>
+                <li> Born Place(state): Kuala Lumpur </li>
+
+              </ul>
+
+            </p>
+          </div>
+        </div>
+        <div class="kad">
+          <div class="card-image"><img src="Images/Iman.png" alt=""></div>
+          <div class="card-info">
+            <h3>Second Son</h3>
+            <p>
+              <ul>
+                <li> Name: Muhammad Alif Iman Bin Mohamad Rizal </li>
+                <li> Age: 14 years old </li>
+                <li> Born Date: 10 October </li>
+                <li> Hobby: Playing football</li>
+                <li> Siblings: Second of four siblings </li>
+                <li> Born Place(state): Perak </li>
+
+              </ul>
+
+            </p>
+          </div>
+        </div>
+        <div class="kad">
+          <div class="card-image"><img src="Images/mawar.png" alt=""></div>
+          <div class="card-info">
+            <h3>Third Daughter</h3>
+            <p>
+              <ul>
+                <li> Name: Nur Mawar Bin Mohamad Rizal </li>
+                <li> Age: 12 years old </li>
+                <li> Born Date: 21 May </li>
+                <li> Hobby: Playing online game</li>
+                <li> Siblings: third of four siblings </li>
+                <li> Born Place(state): Selangor </li>
+
+              </ul>
+
+            </p>
+          </div>
+        </div>
+        <div class="kad">
+          <div class="card-image"><img src="Images/adik2.png" alt=""></div>
+          <div class="card-info">
+            <h3>Last Son</h3>
+            <p>
+              <ul>
+                <li> Name: Muhammad Ramadan Bin Mohamad Rizal </li>
+                <li> Age: 10 years old </li>
+                <li> Born Date: 2 August </li>
+                <li> Hobby: Playing bicycle </li>
+                <li> Siblings: last of four siblings </li>
+                <li> Born Place(state): Selangor </li>
+
+              </ul>
+
+            </p>
+          </div>
+        </div>
+        
+        <div class="pagination">
+          <!--<li class="page-item previous-page disable"><a class="page-link" href="#">Prev</a></li>
+          <li class="page-item current-page active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item next-page"><a class="page-link" href="#">Next</a></li>-->
+        </div>
+      </div>
+    </div>
+
+    <!----- gallery ----->
+
+    <section class="work" id="work">
+        <h1 class="section-title">MY <span>GALLERY</span></h1>
+      </div>
+      <div class="content">
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="/blob/main/images/3.png" alt="">
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="/blob/main/images/3 ioi.png" alt="">
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="/blob/main/images/3i.png" alt="">
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="/blob/main/images/4.jpeg" alt="">
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="/blob/main/images/4i.jpeg" alt="">
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="/blob/main/images/4iii.jpeg" alt="">
+          </div>
+      
+      </div>
+    </section>
+    <!------ Video ------>
+    <section class="vid">
+      <h1>MY<span> VIDEO </span> </h1>
+      <p> This video is from my screen recorder phone. It was my favorite game online and I've been played this game since 2019, so i decide to use my own character in my website video</p>
+      <div class="viv">
+        <div class="vis">
+
+          <video width="380" height="240" controls>
+            <source src="Video/LAA.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+          <video width="380" height="240" controls>
+            <source src="Video/Pn.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+          <video width="380" height="240" controls>
+            <source src="Video/an.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+          <video width="380" height="240" controls>
+            <source src="Video/Na.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+          <video width="380" height="240" controls>
+            <source src="Video/no.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+          <video width="380" height="240" controls>
+            <source src="Video/ni.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!------- contact ----->
+
+    <section class="contact" id="contact">
+      <div class="title reveal">
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fa fa-home"></i>
+            </div>
+            <div class="info">
+              <h3>Address</h3>
+              <span>Bandar Putra Permai, 43000, Seri Kembangan, Selangor</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fa fa-whatsapp"></i>
+            </div>
+            <div class="info">
+              <h3>Phone/Whatsapp</h3>
+              <span>018-967 1830</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fa fa-envelope"></i>
+            </div>
+            <div class="info">
+              <h3>Email Address</h3>
+              <span>ainnanania38@gmail.com</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fa fa-instagram"></i>
+            </div>
+            <div class="info">
+              <h3>Instagram</h3>
+              <span>@ain.nana</span>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------ JavaScript for clock -------->
+<script>
+  function updateClock(){
+    var now = new Date();
+    var dname = now.getDay(),
+        mo = now.getMonth(),
+        dnum = now.getDate(),
+        yr = now.getFullYear(),
+        hou = now.getHours(),
+        min = now.getMinutes(),
+        sec = now.getSeconds(),
+        pe = "AM";
+
+        if(hou >= 12){
+          pe = "PM";
+        }
+        if(hou == 0){
+          hou = 12;
+        }
+        if(hou > 12){
+          hou = hou - 12;
+        }
+        Number.prototype.pad = function(digits){
+            for(var n = this.toString(); n.length < digits; n = 0 + n);
+            return n;
+          }
+
+          var months = ["January", "February", "March", "April", "May", "June", "July", "Augest", "September", "October", "November", "December"];
+          var week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+          var ids = ["dayname", "month", "daynum", "year", "hour", "minutes", "seconds", "period"];
+          var values = [week[dname], months[mo], dnum.pad(2), yr, hou.pad(2), min.pad(2), sec.pad(2), pe];
+          for(var i = 0; i < ids.length; i++)
+          document.getElementById(ids[i]).firstChild.nodeValue = values[i];
+    }
+
+    function initClock(){
+      updateClock();
+      window.setInterval("updateClock()", 1);
+    }
+    </script>
+
+
+
+<!------JavaScript for Toggle Menu------->
+<script>
+
+          var navLinks = document.getElementById("navLinks");
+          
+          function showMenu(){
+            navLinks.style.right = "0";
+          }
+          function hideMenu(){
+            navLinks.style.right = "-200px";
+          }
+
+ </script>
+
+<!------ Javascript for pagination -->
+<script>
+  function getPageList(totalPages, page, maxLength){
+    function range(start, end){
+      return Array.from(Array(end - start + 1), (_, i) => i + start);
+    }
+  
+    var sideWidth = maxLength < 12 ? 3 : 4;
+    var leftWidth = (maxLength - sideWidth * 4 - 5) >> 1;
+    var rightWidth = (maxLength - sideWidth * 4 - 5) >> 1;
+  
+    if(totalPages <= maxLength){
+      return range(1, totalPages);
+    }
+  
+    if(page <= maxLength - sideWidth - 1 - rightWidth){
+      return range(1, maxLength - sideWidth - 1).concat(0, range(totalPages - sideWidth + 1, totalPages));
+    }
+  
+    if(page >= totalPages - sideWidth - 1 - rightWidth){
+      return range(1, sideWidth).concat(0, range(totalPages- sideWidth - 1 - rightWidth - leftWidth, totalPages));
+    }
+  
+    return range(1, sideWidth).concat(0, range(page - leftWidth, page + rightWidth), 0, range(totalPages - sideWidth + 1, totalPages));
+  }
+  
+  $(function(){
+    var numberOfItems = $(".card-content .kad").length;
+    var limitPerPage = 1; //How many card items visible per a page
+    var totalPages = Math.ceil(numberOfItems / limitPerPage);
+    var paginationSize = 12; //How many page elements visible in the pagination
+    var currentPage;
+  
+    function showPage(whichPage){
+      if(whichPage < 1 || whichPage > totalPages) return false;
+  
+      currentPage = whichPage;
+  
+      $(".card-content .kad").hide().slice((currentPage - 1) * limitPerPage, currentPage * limitPerPage).show();
+  
+      $(".pagination li").slice(1, -1).remove();
+  
+      getPageList(totalPages, currentPage, paginationSize).forEach(item => {
+        $("<li>").addClass("page-item").addClass(item ? "current-page" : "dots")
+        .toggleClass("active", item === currentPage).append($("<a>").addClass("page-link")
+        .attr({href: "javascript:void(0)"}).text(item || "...")).insertBefore(".next-page");
+      });
+  
+      $(".previous-page").toggleClass("disable", currentPage === 1);
+      $(".next-page").toggleClass("disable", currentPage === totalPages);
+      return true;
+    }
+  
+    $(".pagination").append(
+      $("<li>").addClass("page-item").addClass("previous-page").append($("<a>").addClass("page-link").attr({href: "javascript:void(0)"}).text("Prev")),
+      $("<li>").addClass("page-item").addClass("next-page").append($("<a>").addClass("page-link").attr({href: "javascript:void(0)"}).text("Next"))
+    );
+  
+    $(".card-content").show();
+    showPage(1);
+  
+    $(document).on("click", ".pagination li.current-page:not(.active)", function(){
+      return showPage(+$(this).text());
+    });
+  
+    $(".next-page").on("click", function(){
+      return showPage(currentPage + 1);
+    });
+  
+    $(".previous-page").on("click", function(){
+      return showPage(currentPage - 1);
+    });
+  });
+  </script>
+
+</body>
+
+</html>
